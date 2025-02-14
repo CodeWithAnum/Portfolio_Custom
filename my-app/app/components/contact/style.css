@@ -1,0 +1,138 @@
+/* Contact Section */
+.contact-container {
+    background-color: #f7fafc; /* Light gray background */
+    padding: 4rem 1rem; /* Vertical padding */
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-header {
+    margin-bottom: 3rem;
+}
+
+.contact-title {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.contact-description {
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-form {
+    max-width: 700px;
+    width: 100%;
+}
+
+.contact-form-input {
+    margin-bottom: 1.5rem;
+}
+
+.contact-label {
+    font-size: 0.875rem; /* 14px */
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: left;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem; /* Rounded corners */
+    font-size: 1rem;
+    color: #4a5568;
+    background-color: #f7fafc;
+    transition: all 0.2s ease;
+}
+
+.contact-input:focus {
+    border-color: #5a67d8;
+    background-color: white;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(93, 103, 226, 0.2);
+}
+
+.contact-textarea-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    color: #4a5568;
+    background-color: #f7fafc;
+    resize: none;
+    transition: all 0.2s ease;
+    height: 150px;
+}
+
+.contact-textarea-input:focus {
+    border-color: #5a67d8;
+    background-color: white;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(93, 103, 226, 0.2);
+}
+
+.contact-form-submit {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.contact-submit-button {
+    background-color: #5a67d8;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.75rem 2rem;
+    border-radius: 0.375rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-submit-button:hover {
+    background-color: #434190;
+}
+
+.contact-footer {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+}
+
+.contact-email {
+    color: #5a67d8;
+    text-decoration: none;
+}
+
+.contact-email:hover {
+    text-decoration: underline;
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+    .contact-form {
+        width: 80%;
+    }
+}

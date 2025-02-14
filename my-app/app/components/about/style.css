@@ -1,0 +1,85 @@
+/* About Section */
+.about-container {
+    background-color: #f7fafc; /* Light gray background */
+    padding: 4rem 1rem; /* Vertical padding */
+}
+
+.about-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-image-container {
+    margin-bottom: 2rem; /* Add spacing at the bottom */
+}
+
+.about-image {
+    border-radius: 0.5rem; /* Rounded corners */
+    width: 100%;
+    max-width: 350px;
+    object-fit: cover;
+}
+
+.about-text-container {
+    max-width: 700px;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3748; /* Dark gray color */
+    margin-bottom: 1rem;
+}
+
+.about-description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #4a5568; /* Light gray */
+    margin-bottom: 2rem;
+}
+
+.about-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-button {
+    background-color: #5a67d8; /* Indigo color */
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.375rem; /* Rounded corners */
+    font-size: 1.125rem; /* 18px */
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.about-button:hover {
+    background-color: #434190; /* Darker indigo on hover */
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+    .about-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-text-container {
+        text-align: left;
+    }
+}
